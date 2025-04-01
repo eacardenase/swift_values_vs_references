@@ -45,3 +45,17 @@ employees.last?.id = 4
 
 employees
 partyGoers
+
+let x = 1
+let y = 1
+
+x == y // equality
+acme.boss === anika // identity
+
+//x === y // Error: argument Int expected to be an instance of a class
+
+let joe = Employee()
+let sam = Employee()
+
+//joe == sam // Error: binary operator cannot be applied
+joe === sam
